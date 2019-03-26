@@ -9,12 +9,83 @@ public class Print_an_Integer_Entered_by_the_User {
 	public static void main(String[] args) 
 	{
 		
-		Largest_Among_Three_Numbers();
-
+		Fibonacci();
+//		fectorial();
+//		sum_of_natural_numbes();
+//		Leap_year();
+//		Largest_Among_Three_Numbers();
 //		alphbet_vovels_check();
 //		swapTwoNumbers();
 //		EvenOdd();
     }
+	
+	
+	
+	/**
+	 * The Fibonacci series is a series where the next term is the sum of pervious two terms. The first 
+	 * two terms of the Fibonacci sequence is 0 followed by 1.
+	 * 
+	 * 
+	 * The Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
+	 * 
+	 * 
+	 */
+	
+	public static void Fibonacci()
+	{
+		int i = 1, range = 10, t1 = 0, t2 = 1;
+        System.out.print("First " + range + " terms: ");
+		
+		for( i=0;i<=range;i++)
+		{
+			System.out.print(t1 + " + ");
+
+            int sum = t1 + t2;
+            t1 = t2;
+            t2 = sum;
+		}
+		
+	}
+	public static void fectorial()
+	{
+		int range=10;
+		int fectorial=1;
+		
+		for(int i=1;i<=range;i++)
+		{
+			fectorial=fectorial*i;
+			
+		}
+		System.out.println("fectorial of : "+range+ " is :" + fectorial);
+	}
+	public static void sum_of_natural_numbes()
+	{
+		int range=100;
+		int sum=0;
+		
+		for(int i=1;i<=range;i++)
+		{
+			sum=sum+i;
+			
+		}
+		System.out.println("Sum is :" + sum);
+	}
+	public static void Leap_year()
+	{
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter your desired Year");
+		int yr=sc.nextInt();
+		
+		
+		if(yr%4==0)
+		{
+			System.out.println("This Year : " + yr + " is a Leap Year." );
+		}
+		else
+		{
+			System.out.println("This Year : " + yr + " is NOT a Leap Year." );
+		}
+	}
 	
 	public static void Largest_Among_Three_Numbers()
 	{

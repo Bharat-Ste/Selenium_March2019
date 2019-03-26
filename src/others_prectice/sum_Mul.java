@@ -34,7 +34,7 @@ public class sum_Mul {
 	{
 		// Create table of inserted number
 		
-		
+		       Scanner sc= new Scanner(System.in);
 		
 				System.out.println("Print Table of :");
 				int val3 = sc.nextInt();
