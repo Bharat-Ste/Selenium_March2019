@@ -50,7 +50,7 @@ public class Class_Assignment_Q_Three {
 		
 		check = true;
 		
-		Class_Assignment_Q_Three emp1= new Class_Assignment_Q_Three("Naveen","20-09-2009",200000,"Florida");
+		Class_Assignment_Q_Three emp1= new Class_Assignment_Q_Three("Naveen","20-09-2009",90000,"Florida");
 		Class_Assignment_Q_Three emp2= new Class_Assignment_Q_Three("Bharat","20-01-2017",50000,"Noida");
 		Class_Assignment_Q_Three emp3= new Class_Assignment_Q_Three("Shravi","20-09-2016",80000,"Delhi");
 		

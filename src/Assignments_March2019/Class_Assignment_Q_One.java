@@ -31,7 +31,11 @@ public class Class_Assignment_Q_One {
 		System.out.println("Name is : "+ name +" & Roll Number is :" + rollNum );	
 
 	}
-	
+	/**
+	 * 
+	 * @param na
+	 * @param rNum
+	 */
 	public static void Student(String na,int rNum)
 	{
 		
