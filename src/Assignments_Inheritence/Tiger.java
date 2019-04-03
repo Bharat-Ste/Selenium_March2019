@@ -1,4 +1,4 @@
-package Assignments_Interfaces;
+package Assignments_Inheritence;
 
 public class Tiger 
 {

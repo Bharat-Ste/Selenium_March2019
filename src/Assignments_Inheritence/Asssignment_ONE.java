@@ -1,4 +1,4 @@
-package Assignments_Interfaces;
+package Assignments_Inheritence;
 
 public class Asssignment_ONE 
 {
@@ -10,7 +10,7 @@ public class Asssignment_ONE
 		2 - method of child class by object of child class
 		3 - method of parent class by object of child class
 
-Q2: In the above example, declare the method of the parent class as private and then repeat the first two operations (You will get error in the third).
+   Q2: In the above example, declare the method of the parent class as private and then repeat the first two operations (You will get error in the third).
 
   */
 
